@@ -1,0 +1,78 @@
+{
+	"common": {
+		"name": "gotify",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Gotify",
+		"titleLang": {
+			"en": "Gotify",
+			"de": "Gottify",
+			"ru": "Gotify",
+			"pt": "Gotify",
+			"nl": "Gotify",
+			"fr": "Gotify",
+			"it": "Gotify",
+			"es": "Gotify",
+			"pl": "Gotify",
+			"zh-cn": "哥特化"
+		},
+		"desc": {
+			"en": "A simple server for sending and receiving messages in real-time per WebSocket.",
+			"de": "Ein einfacher Server zum Senden und Empfangen von Nachrichten in Echtzeit per WebSocket.",
+			"ru": "Простой сервер для отправки и получения сообщений в реальном времени через WebSocket.",
+			"pt": "Um servidor simples para enviar e receber mensagens em tempo real por WebSocket.",
+			"nl": "Een eenvoudige server voor het in realtime verzenden en ontvangen van berichten per WebSocket.",
+			"fr": "Un serveur simple pour envoyer et recevoir des messages en temps réel par WebSocket.",
+			"it": "Un semplice server per inviare e ricevere messaggi in tempo reale per WebSocket.",
+			"es": "Un servidor simple para enviar y recibir mensajes en tiempo real por WebSocket.",
+			"pl": "Prosty serwer do wysyłania i odbierania wiadomości w czasie rzeczywistym przez WebSocket.",
+			"zh-cn": "一个简单的服务器，用于根据 WebSocket 实时发送和接收消息。"
+		},
+		"authors": [
+			"Michael Sauer <sauer.uetersen@gmail.com>"
+		],
+		"keywords": [
+			"push messages",
+			"im",
+			"instant messaging"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "gotify.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/ninharp/ioBroker.gotify/main/admin/gotify.png",
+		"readme": "https://github.com/ninharp/ioBroker.gotify/blob/main/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "messaging",
+		"compact": true,
+		"connectionType": "cloud",
+		"dataSource": "push",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}

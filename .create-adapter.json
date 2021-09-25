@@ -1,0 +1,44 @@
+{
+	"cli": true,
+	"target": "directory",
+	"adapterName": "gotify",
+	"title": "Gotify",
+	"description": "A simple server for sending and receiving messages in real-time per WebSocket.",
+	"keywords": [
+		"push messages",
+		"im",
+		"instant messaging"
+	],
+	"expert": "yes",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "messaging",
+	"startMode": "daemon",
+	"connectionType": "cloud",
+	"dataSource": "push",
+	"connectionIndicator": "no",
+	"language": "JavaScript",
+	"adminReact": "no",
+	"tools": [
+		"ESLint",
+		"type checking",
+		"devcontainer"
+	],
+	"releaseScript": "yes",
+	"devServer": "yes",
+	"devServerPort": 8085,
+	"indentation": "Tab",
+	"quotes": "double",
+	"es6class": "yes",
+	"authorName": "Michael Sauer",
+	"authorGithub": "ninharp",
+	"authorEmail": "sauer.uetersen@gmail.com",
+	"gitRemoteProtocol": "HTTPS",
+	"gitCommit": "no",
+	"defaultBranch": "main",
+	"license": "MIT License",
+	"dependabot": "no",
+	"creatorVersion": "2.0.1"
+}
