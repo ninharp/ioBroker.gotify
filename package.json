@@ -1,6 +1,6 @@
 {
   "name": "iobroker.gotify",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A simple server for sending and receiving messages in real-time per WebSocket.",
   "author": {
     "name": "Michael Sauer",

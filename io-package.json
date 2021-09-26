@@ -1,7 +1,7 @@
 {
 	"common": {
 		"name": "gotify",
-		"version": "0.0.1",
+		"version": "0.1.0",
 		"news": {
 			"0.0.1": {
 				"en": "initial release",
@@ -47,7 +47,8 @@
 		"keywords": [
 			"push messages",
 			"im",
-			"instant messaging"
+			"instant messaging",
+			"notification"
 		],
 		"license": "MIT",
 		"platform": "Javascript/Node.js",
@@ -58,6 +59,12 @@
 		"readme": "https://github.com/ninharp/ioBroker.gotify/blob/main/README.md",
 		"loglevel": "info",
 		"mode": "daemon",
+		"availableModes": [
+            "daemon",
+            "subscribe"
+        ],
+        "messagebox": true,
+        "subscribe": "messagebox",
 		"type": "messaging",
 		"compact": true,
 		"connectionType": "cloud",
@@ -70,8 +77,8 @@
 		]
 	},
 	"native": {
-		"option1": true,
-		"option2": "42"
+		"server": "https://push.example.com",
+		"token": "A3Cg_qAAzKAQ_6."
 	},
 	"objects": [],
 	"instanceObjects": []
